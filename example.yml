@@ -1,0 +1,6 @@
+conn:
+    dbname: yourdb
+    user: youruser
+    password: yourpassword
+    host: 127.0.0.1
+    port: 5432
