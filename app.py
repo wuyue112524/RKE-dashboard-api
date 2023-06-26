@@ -6,8 +6,8 @@ import yaml
 config_path = 'config.yml'
 
 with open(config_path) as credential:
-    #config = yaml.load(credential,Loader = yaml.FullLoader)
-    config = yaml.load(credential)
+    config = yaml.load(credential,Loader = yaml.FullLoader)
+    
     
 app = Flask(__name__)
 CORS(app)
