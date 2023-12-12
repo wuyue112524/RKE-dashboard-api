@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 
 class RKE(db.Model):
-    __tablename__ = 'rke_forum'
+    __tablename__ = 'rke_membership'
 
     user_id = db.Column(db.String, primary_key=True)
     name = db.Column(db.String)
